@@ -1,6 +1,9 @@
 fn main():
-    print("5 * 7 is", multiply_numbers(5, 7))
+    mutable_variable()
 
 
-fn multiply_numbers(a: Float32, b: Float32) -> Float32:
-    return a * b
+fn mutable_variable():
+    var x = 2
+    print(x)
+    x += 6
+    print(x)
